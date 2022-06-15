@@ -41,6 +41,7 @@ function setN(){ // 랜덤의 3개의 수 생성하는 함수
     for(let i = 0; i<3; i++){ //3번 반복
       var thNum = setNumber.splice(Math.floor(Math.random()*(10-i)),1)[0]; 
       // math겍채를 사용하여 random()*(10-i) 해주어 원하는 범위를 정해주고 floor 정수를 출력하고 ,1로 정해진 수의 자리의 배열을 빼주고 thNum 변수에 저장
+      // [0]은 선택된 배열의 첫번째의 수 를 가져온다. 이것을 사용하지않으면 배열자체를 가지고 오기때문에 배열안에 배열이 들어간다. 
       selectSetNumber.push(thNum);      // 저장된 변수의 값을 selectSetNumber 변수에 넣어줌
         }
         console.log(selectSetNumber); // 최종값 콘솔창에 출력
