@@ -1,0 +1,76 @@
+body {
+  background-image: url("./images/bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Varela Round", sans-serif;
+}
+
+h1 {
+  font-family: "Pacifico", cursive;
+  text-align: center;
+  font-size: 72px;
+}
+
+.image-box img{
+  width: 300px;
+}
+
+section{
+  position: relative;
+}
+
+#start {
+width: 200px;
+height: 80px;
+font-size: 40px;
+background-color: rgb(243, 0, 182);
+position: absolute;
+top: 100%;
+left: 45%;
+}
+
+#intext {
+  position: absolute;
+  font-size: 25px;
+  text-align: center;
+  width: 200px;
+  height: 80px;
+  top: 100%;
+  left: 40%;
+  display: none;
+}
+
+#show{
+  position: absolute;
+  font-size: 30px;
+  text-align: center;
+  width: 300px;
+  height: 40px;
+  top: 100%;
+  left: 52%;
+  display: none;
+
+}
+#cou{
+  position: absolute;
+  font-size: 30px;
+  text-align: center;
+  width: 300px;
+  height: 40px;
+  top: 115%;
+  left: 52%;
+  display: none;
+
+}
+
+#restart{
+  position: absolute;
+  font-size: 25px;
+  text-align: center;
+  width: 200px;
+  height: 80px;
+  top: 100%;
+  left: 40%;
+  display: none;
+  background-color: rgb(233, 247, 157);
+}
